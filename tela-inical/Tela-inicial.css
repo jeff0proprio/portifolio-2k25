@@ -1,0 +1,81 @@
+body{
+    padding: 1%;
+    /* background-color: #1B7F12; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px black solid;
+}
+
+.Logo h2{
+    display: flex;
+    font-size: 2.5rem;
+    margin-left: 40px;
+    border: 1px black solid;
+}
+
+.Topicos ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7rem;
+    gap: 3rem;
+    margin-right: 40px;
+    border: 1px black solid;
+    list-style: none;
+
+}
+
+.sobre-mim{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.sobre-mim hr{
+
+    margin-left: 100px;
+    height: 2px;
+    width: 450px;
+    background-color: #333;
+}
+
+.Contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.Contatos p{
+    margin-left: 15px;
+}
+
+.sobre-mim i{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 0px;
+}
+
+.Foto{
+    margin-left: 30%;
+    width: 350px;
+    height: 500px;
+}
+
+
+.Biografia h1{
+    font-size: 60px;
+    margin-left: 35%;
+    /* border: 1px black solid; */
+}
+
+.Biografia p{
+    border: 1px black solid;
+    max-width: 60vw;
+    margin-left: 50px;
+    font-size: 20px;
+}
