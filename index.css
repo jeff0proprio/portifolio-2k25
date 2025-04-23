@@ -1,6 +1,6 @@
 body{
     padding: 1%;
-    background-image: url(imagens/wallpaper.jpg);
+    background-image: url(imagens/backgroundclean.png);
     background-size: cover; /* Cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição */
@@ -15,7 +15,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(6, 205, 240, 0.445);
+    background-color: rgba(2, 2, 2, 0.726);
+
     border-radius: 20px;
     /* border: 1px black solid; */
 }
@@ -80,8 +81,9 @@ header{
     flex-direction: row;
     margin-top: 3%;
     padding: 2%;
-    border-radius: 4%;
-    background-color: rgba(2, 2, 2, 0.486);
+    border-radius: 4% 4% 0% 0%;
+    background-color: rgba(2, 2, 2, 0.726);
+
 }
 
 .sobre-mim hr{
@@ -102,6 +104,12 @@ header{
 
 .Contatos p{
     margin-left: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.Contatos a{
+    text-decoration: none;
 }
 
 .sobre-mim i{
@@ -115,6 +123,7 @@ header{
     margin-left: 30%;
     width: 350px;
     height: 500px;
+    border-radius: 100px;
 }
 
 
@@ -125,10 +134,9 @@ header{
 }
 
 .Biografia p{
-    border: 1px black solid;
     max-width: 60vw;
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .Curriculo{
@@ -137,8 +145,39 @@ header{
 }
 
 .Curriculo img{
-    border: solid black 1px;
     margin-left: 24%;
     width: 525px;
     height: 700px;
+}
+
+.Port-antigos{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+
+
+.Port-1 h3{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Portifolios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.Portifolios img{
+    height: 400px;
+}
+
+.linguica{
+    padding: 2%;
+    border-radius: 0% 0% 4% 4%;
+    background-color: rgba(2, 2, 2, 0.726);
+
 }
